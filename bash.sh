@@ -9,9 +9,9 @@ name="Tiento"
 
 # echo "$name"
 
-password="mmmmmmmm"
+password=""
 
-passlist=("123445678" "mmmmmmmm" "pass1234" "87654321")
+passlist=("123445678" "" "pass1234" "87654321")
 
 somear=($(nmcli dev wifi list | awk '{print $2}'))
 
